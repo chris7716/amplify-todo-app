@@ -23,6 +23,13 @@
       "StackName": "amplify-todoapp-test-202448",
       "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-todoapp-test-202448/e6126d30-07e3-11eb-80c1-0e0e50fbc697",
       "AmplifyAppId": "daycut41lg3p4"
+    },
+    "categories": {
+      "auth": {
+        "todoapp3f970c17": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"777976482136-0ns42758cfvtpjkdg1ukpdk2kr29c302.apps.googleusercontent.com\",\"client_secret\":\"0aMkk1mB9jgsBt6PxQ82qhz4\"}]"
+        }
+      }
     }
   }
 }

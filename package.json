@@ -24,6 +24,7 @@
     "@types/chart.js": "^2.9.25",
     "angular-bootstrap-md": "^10.0.0",
     "animate.css": "^4.1.1",
+    "aws-amplify": "^3.3.3",
     "chart.js": "^2.5.0",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.5.5",

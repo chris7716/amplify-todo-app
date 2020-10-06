@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "todoapp3f970c17": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
