@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'to-do-app';
 
   googleSignIn(){
-    Auth.federatedSignIn({customProvider: 'Facebook'})
+    Auth.federatedSignIn({customProvider: 'Google'})
   }
 
 }
