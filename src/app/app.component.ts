@@ -9,8 +9,4 @@ import { Auth } from 'aws-amplify';
 export class AppComponent {
   title = 'to-do-app';
 
-  googleSignIn(){
-    Auth.federatedSignIn({customProvider: 'Google'})
-  }
-
 }
