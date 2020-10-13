@@ -4,7 +4,7 @@ import Amplify, { API, Auth, graphqlOperation } from 'aws-amplify';
  import { onCreateTodo } from '../../../graphql/subscriptions';
  import { Observable as rxObservable, of } from "rxjs";
 import * as Observable from "zen-observable";
-import { Todo } from 'src/types/Todo';
+import { Todo } from '../../types/todo';
 
 
 @Component({

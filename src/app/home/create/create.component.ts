@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { Todo } from 'src/types/Todo';
+import { Todo } from '../../types/todo';
 import { APIService } from '../../API.service';
 
 @Component({
