@@ -17,4 +17,8 @@ export class LogInComponent implements OnInit {
     Auth.federatedSignIn({customProvider: 'Google'})
   }
 
+  facebookSignIn(){
+    Auth.federatedSignIn({customProvider: 'Facebook'})
+  }
+
 }
