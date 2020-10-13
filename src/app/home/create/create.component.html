@@ -1,0 +1,27 @@
+<!-- Default form contact -->
+<form class="text-center border border-light p-5" [formGroup]="createForm" (ngSubmit)="onCreate(createForm.value)">
+
+    <p class="h4 mb-4">Create To Do</p>
+  
+    <!-- Name -->
+    <input type="text" formControlName="name" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+  
+    <!-- Status -->
+    <label>Status</label>
+    <select class="browser-default custom-select mb-4" formControlName="status">
+      <option value="" disabled>Choose option</option>
+      <option value="1" selected>On Going</option>
+      <option value="2">Completed</option>
+      <option value="3">Coming Up</option>
+    </select>
+  
+    <!-- Comment -->
+    <div class="form-group">
+      <textarea formControlName="comment" class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Comment"></textarea>
+    </div>
+  
+    <!-- Send button -->
+    <button mdbBtn color="info" block="true" type="submit">Submit</button>
+  
+  </form>
+  <!-- Default form contact -->
