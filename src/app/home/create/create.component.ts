@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { Todo } from 'src/types/Todo';
 import { APIService } from '../../API.service';
-import { Todo } from '../../../types/Todo';
 
 @Component({
   selector: 'app-create',
