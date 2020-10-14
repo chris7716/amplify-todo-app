@@ -10,6 +10,7 @@ import { LogInComponent } from './auth/log-in/log-in.component';
 import { CreateComponent } from './home/create/create.component';
 import { DataComponent } from './home/data/data.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RegisterComponent } from './auth/register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AuthComponent,
     LogInComponent,
     CreateComponent,
-    DataComponent
+    DataComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
