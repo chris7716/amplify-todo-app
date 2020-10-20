@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Auth } from 'aws-amplify';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'to-do-app';
+
 }

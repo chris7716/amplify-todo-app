@@ -11,5 +11,25 @@
       "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-todoapp-dev-200626/590778b0-07e1-11eb-af1b-0a54954134e7",
       "AmplifyAppId": "daycut41lg3p4"
     }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-todoapp-test-202448-authRole",
+      "UnauthRoleArn": "arn:aws:iam::175704135025:role/amplify-todoapp-test-202448-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::175704135025:role/amplify-todoapp-test-202448-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-todoapp-test-202448-deployment",
+      "UnauthRoleName": "amplify-todoapp-test-202448-unauthRole",
+      "StackName": "amplify-todoapp-test-202448",
+      "StackId": "arn:aws:cloudformation:us-east-1:175704135025:stack/amplify-todoapp-test-202448/e6126d30-07e3-11eb-80c1-0e0e50fbc697",
+      "AmplifyAppId": "daycut41lg3p4"
+    },
+    "categories": {
+      "auth": {
+        "todoapp3f970c17": {
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"400840301283000\",\"client_secret\":\"822942fbd32053ba46da3bca20d97134\"},{\"ProviderName\":\"Google\",\"client_id\":\"777976482136-0ns42758cfvtpjkdg1ukpdk2kr29c302.apps.googleusercontent.com\",\"client_secret\":\"0aMkk1mB9jgsBt6PxQ82qhz4\"}]"
+        }
+      }
+    }
   }
 }

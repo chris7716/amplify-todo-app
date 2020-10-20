@@ -1,0 +1,34 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTodo($owner: String!) {
+  onCreateTodo(owner: $owner) {
+    id
+    name
+    comment
+    status
+    createdAt
+    updatedAt
+    owner
+  }
+}
+subscription OnUpdateTodo($owner: String!) {
+  onUpdateTodo(owner: $owner) {
+    id
+    name
+    comment
+    status
+    createdAt
+    updatedAt
+    owner
+  }
+}
+subscription OnDeleteTodo($owner: String!) {
+  onDeleteTodo(owner: $owner) {
+    id
+    name
+    comment
+    status
+    createdAt
+    updatedAt
+    owner
+  }
+}
